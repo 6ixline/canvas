@@ -117,7 +117,7 @@ class Circle{
 
 function init() {
     circles = [];
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 150; i++) {
         circles.push(new Circle());
     }
 }
