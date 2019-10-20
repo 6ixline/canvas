@@ -1,4 +1,7 @@
 const canvas= document.querySelector("canvas");
+const text= document.getElementsByClassName("canvas-title");
+
+
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -17,6 +20,7 @@ function color(){
     }
     return color;
 }
+text[0].style.color=color();
 
 let position = {
     x: undefined,

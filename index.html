@@ -4,26 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
     <title>Document</title>
     <meta name="theme-color" content="#add8e6">
     <style>
         *,body{
             margin: 0px;
             padding: 0px;
-           
+            font-family: Monoton,cursive;
         }
         div{
             width: 100vw;
             height:100vh;
         }
+        .upper{
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .canvas-title{
+            background: transparent;
+            font-size: 80px;
+
+        }
+        
+
     </style>
 </head>
 <body>
+    <div class="upper">
+        <h3 class="canvas-title">CANVAS</h3>
+    </div>
+        
+   
     <div>
         <canvas></canvas>
     </div>
     
     
     <script src="index.js"></script>
+
 </body>
 </html>
